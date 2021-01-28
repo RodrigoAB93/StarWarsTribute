@@ -1,0 +1,190 @@
+html, body{
+  height: 100vh; 
+  width: 100vw;
+} 
+
+.title{ 
+  color: yellow; 
+  font-family: StarJedi Special Edition; 
+  font-size: 48pt;
+} 
+
+.subtitle{ 
+  color: rgba(255, 255, 0, 0.767);  
+  font-family:StarJedi Special Edition; 
+  font-size: 24pt;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background:linear-gradient(rgb(0, 0, 0),rgba(15, 15, 15, 0.877),rgba(0, 0, 0, 0.63),rgba(37, 36, 36, 0.438));
+  overflow: hidden;
+}
+
+.stars{
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 50px 30px white, 
+    100px 80px white,
+    850px 120px white,
+    300px 20px white,
+    450px 130px white, 
+    100px  120px  white, 
+    380px 630px white, 
+    720px 250px white,
+    350px 725px white,  
+    670px 845px white,
+    440px 20px white,
+    300px 120px white,
+    950px 130px white, 
+    1470px  100px  white,  
+    820px 30px white,
+    37px 440px white,
+    620px 410px white,
+    880px 3300px white,
+    350px 440px white,
+    620px 410px white,   
+    800px 1300px white,
+    1250px 4140px white,
+    680px 4100px white,  
+    770px 500px white,
+    350px 140px white,
+    420px 120px white;
+  animation: stars 3s steps(4, 1) infinite;
+}
+
+@keyframes stars {
+
+  0% {
+    opacity:0; 
+  } 
+  25%{ 
+    opacity:0.25%; 
+  } 
+  50%{ 
+    opacity: 0.50%;
+  } 
+  75%{ 
+    opacity:0.75%;
+  } 
+  100%{ 
+    opacity:1;
+  }
+}
+
+
+
+
+
+.stars2{
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 
+    50px 100px white, 
+    70px 120px white,
+    90px 140px white,
+    130px 180px white,
+    170px 220px white, 
+    210px 260px  white, 
+    250px 300px white, 
+    330px 380px white,
+    410px 460px white,  
+    500px 740px white,
+    580px 820px white,
+    720px 960px white,
+    860px 1100px white, 
+    1000px 2240px  white,  
+    800px 350px white,
+    637px 490px white,
+    605px 410px white,
+    820px 360px white,
+    155px 470px white,
+    280px 408px white,   
+    860px 138px white,
+    156px 460px white,
+    732px 475px white,  
+    90px 53px white,
+    345px 420px white,
+    204px 14px white;
+  animation: stars2 4s steps(6, end) infinite;
+}
+
+@keyframes stars2 {
+
+  0% {
+    opacity:0; 
+  } 
+  25%{ 
+    opacity:0.30%; 
+  } 
+  50%{ 
+    opacity: 0.60%;
+  } 
+  75%{ 
+    opacity:0.90%;
+  } 
+  100%{ 
+    opacity:1;
+  }
+} 
+
+.stars3{
+  position: relative;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  box-shadow: 50px 30px white, 
+    100px 80px white,
+    80px 120px white,
+    300px 20px white,
+    250px 130px white, 
+    1px  100px  white, 
+    300px 230px white, 
+    200px 50px white,
+    150px 100px white,  
+    470px 810px white,
+    140px 220px white,
+    360px 320px white,
+    950px 130px white, 
+    800px  100px  white,  
+    800px 30px white,
+    3750px 4400px white,
+    620px 410px white,
+    880px 3300px white,
+    350px 440px white,
+    620px 410px white,   
+    800px 1300px white,
+    1250px 4140px white,
+    680px 4100px white,  
+    770px 500px white,
+    350px 140px white,
+    320px 100px white;
+  animation: stars3 5s steps(6, end) infinite;
+}
+
+@keyframes stars3 {
+
+  0% {
+    opacity:0; 
+  } 
+  20%{ 
+    opacity:0.25; 
+  } 
+  40%{ 
+    opacity: 0.40;
+  } 
+  60%{ 
+    opacity:0.60;
+  } 
+  80%{ 
+    opacity:0.80;
+  } 
+  100%{ 
+    opacity:1;
+  }
+}
